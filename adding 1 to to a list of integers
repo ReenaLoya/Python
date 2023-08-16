@@ -1,0 +1,8 @@
+user_input = [9, 3, 4, 9]
+a = [str(i) for i in user_input]
+b = ("".join(a))
+c = int(b)
+d = c + 1
+user_output= list(map(int, str(d)))
+
+print(user_output)
